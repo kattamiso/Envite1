@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Poppins', sans-serif ;
+}
+
+li,a,button {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  padding: 20px 1%;
+  width: 100%;
+  top: 5px;
+}
+.menu {
+  display: flex;
+}
+
+.envite-logo{
+  cursor: pointer;
+  height: 28.579914093017578px;
+  width: 87.8585433959961px;
+}
+.navbar-list {
+  display: flex;
+}
+
+.navbar-list li {
+  padding: 5px 20px;
+}
+
+.navbar-list li a {
+  color: #696378;
+}
+
+.navbar-list li a:hover {
+  color: black;
+}
+
+/* dropdown menu */
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  box-shadow: #696378; 
+  display: none;
+  background-color: white;
+}
+.navbar-list .drop-btn:hover {
+  color: #FF707A;
+}
+.navbar-list li:hover + .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu:hover {
+  display: block;
+  color: black;
+}
+
+.authorization {
+  display: flex;
+  justify-items: left;
+}
+
+/* authorization */
+.log-in {
+  color: #696378;
+  margin: 5px 12px;
+}
+
+.get-started {
+  background: #FF707A;
+  color: #FFFFFF;
+  border-radius: 4px;
+  height: 44px;
+  width: 138px;
+  padding: 8px 0px 0px 17px ;
+}
+
+.get-started:hover {
+  color: black;
+}
+
+ /* main page */
+.heading {
+  color: #2F2643;
+  margin: 120px 100px 40px 100px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.p-mainPage {
+  color: black ;
+  margin: 1px 100px 30px 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.join-btn { 
+  display: flex;
+  align-content: center;
+  background: #FF707A;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: 228px;
+  height: 56px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.join-btn:hover {
+  color: black;
+}
